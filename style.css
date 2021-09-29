@@ -1,0 +1,49 @@
+body{
+   background: #c5ecfb;;
+}
+.wrapper-header{
+   background: #03bfb1;
+
+}
+.wrapper-navigation{
+   background: #30c260;
+}
+
+.Aside{
+   background: #6fdb6c;
+   grid-area: asi;
+}
+
+.Content{
+   background: #1099c7;
+   grid-area: con;
+}
+
+.Section{
+   background: #005b94;
+   grid-area: sec;
+}
+
+.wrapper-footer{
+   background: #03bfb1;
+}
+
+p{
+   text-align: center;
+   font-size: 60px;
+   color: rgb(255, 255, 255);
+}
+
+.card-grids{
+   display: grid;
+   grid-template-columns: repeat(3);
+   grid-template-rows: repeat(2, 200px);
+   gap: 20px;
+   grid-template-areas:
+     "asi con con con"
+     "asi sec sec sec";
+}
+ 
+.conteiner{
+   padding: 20px 20px 20px;
+}
